@@ -542,6 +542,27 @@ img {
   letter-spacing: 0.06em;
 }
 
+/* ── Footer credit ────────────────────────────────────── */
+.footer-credit {
+  max-width: 1160px;
+  margin: 24px auto 0;
+  padding: 16px 40px 0;
+  border-top: 0.5px solid #111;
+  text-align: center;
+}
+.footer-credit-link {
+  font-family: var(--font-body);
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  color: #3a3a3a;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+.footer-credit-link:hover {
+  color: var(--color-gold);
+}
+
 /* ── Responsive ───────────────────────────────────────── */
 @media (max-width: 768px) {
   .container { padding: 0 24px; }

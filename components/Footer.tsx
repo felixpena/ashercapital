@@ -24,6 +24,16 @@ export default function Footer({ lang }: FooterProps) {
         <p className="footer-text">{c.copy}</p>
         <p className="footer-domain">{c.domain}</p>
       </div>
+      <div className="footer-credit">
+        <a
+          href="https://www.sfumato.design"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer-credit-link"
+        >
+          Diseñado por SFUMATO
+        </a>
+      </div>
     </footer>
   )
 }
